@@ -1,5 +1,21 @@
 @import "bootstrap/dist/css/bootstrap.min.css";
 
-body{
-    background: white;
+.card {
+    height: 550px ;
+    width: 400px;
+    font-size: 8rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.card>div {
+    line-height: 6rem;
+}
+
+.spade, .club {
+    color: black;
+}
+
+
+.suit-bottom {
+    transform: rotateX(180deg);
 }

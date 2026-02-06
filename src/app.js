@@ -34,3 +34,6 @@ window.onload = function () {
 
 // Button functionality to generate a new random card
 document.querySelector('button').addEventListener('click', generateRandomCard);
+
+// Automatically generate a new card every 10s
+setInterval(generateRandomCard, 10000);
